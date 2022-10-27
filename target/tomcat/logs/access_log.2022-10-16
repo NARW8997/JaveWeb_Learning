@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [16/Oct/2022:00:00:43 -0400] "GET /Tomcat-Demo HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [16/Oct/2022:00:00:43 -0400] "GET /Tomcat-Demo/ HTTP/1.1" 200 57 http-bio-80-exec-2 30
+0:0:0:0:0:0:0:1 - - [16/Oct/2022:00:00:49 -0400] "GET /Tomcat-Demo/login.html HTTP/1.1" 304 - http-bio-80-exec-3 4
+0:0:0:0:0:0:0:1 - - [16/Oct/2022:00:00:54 -0400] "GET /Tomcat-Demo/register.html?username=dwdw&password=dwdw HTTP/1.1" 200 1343 http-bio-80-exec-4 1
+0:0:0:0:0:0:0:1 - - [16/Oct/2022:00:00:57 -0400] "POST /Tomcat-Demo/registerServlet HTTP/1.1" 200 24 http-bio-80-exec-5 366
